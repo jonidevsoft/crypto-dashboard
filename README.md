@@ -1,16 +1,36 @@
-# React + Vite
+# 🪙 Crypto Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real-time cryptocurrency dashboard built with **React + CoinGecko API**.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📈 **Real-time prices** — Top 50 cryptocurrencies by market cap
+- 📊 **Interactive charts** — Historical price charts (1d, 7d, 30d, 90d)
+- 🔍 **Search** — Find any cryptocurrency instantly
+- 💹 **Market stats** — Market cap, volume, 24h high/low
+- 🔄 **Auto-refresh** — Prices update every 60 seconds
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open **http://localhost:5173** in your browser.
+
+## 🔌 API
+
+Uses [CoinGecko API](https://www.coingecko.com/api) — free, no API key required.
+
+## 🛠️ Tech Stack
+
+- **React 18** + Vite
+- **Tailwind CSS** — styling
+- **Recharts** — interactive charts
+- **Axios** — HTTP requests
+- **CoinGecko API** — cryptocurrency data
