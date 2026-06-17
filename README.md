@@ -21,6 +21,11 @@ npm install
 npm run dev
 ```
 
+## 🎥 Demo
+
+[![Ver Demo](https://img.shields.io/badge/▶%20Ver%20Demo-ScreenPal-red?style=for-the-badge)](https://go.screenpal.com/watch/cO1beMnupTi)
+
+
 Open **http://localhost:5173** in your browser.
 
 ## 🔌 API
